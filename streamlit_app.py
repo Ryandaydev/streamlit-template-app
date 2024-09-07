@@ -2,11 +2,11 @@ import streamlit as st
 import httpx
 import pandas as pd
 
-st.title("My template APP")
+st.title("Using GitHub Codespaces")
 st.write(
     "Testing a change in the repo."
 )
-base_url = "https://api.sportsworldcentral.com"
+base_url = "https://fluffy-space-orbit-vrgrgj79q5hxjr5-8000.app.github.dev"
 
 HEALTH_CHECK_ENDPOINT = "/"
 LIST_LEAGUES_ENDPOINT = "/v0/leagues/"
